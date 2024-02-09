@@ -1,0 +1,121 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+html{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    color: hsl(24, 5%, 18%);
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+
+} 
+
+      
+
+h1, h2, h3{
+    font-family: 'Young Serif', serif;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+ul, ol {
+    padding-left: 20px;   
+   }
+
+li {
+    color: hsl(14, 45%, 36%);
+    line-height: 2.0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    padding: 0px 20px;
+    }
+ 
+li span{
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+    }
+
+.otherPart{
+    padding: 0px 25px;
+}
+
+.topImage{
+    overflow: hidden;
+    
+}
+
+.topImage img{
+    max-width: 100%;
+}
+
+.prepTime{
+    margin-top: 20px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.prepTime h3{
+    color: hsl(332, 51%, 32%)
+}
+
+td {
+    font-family: 'Outfit', sans-serif;
+    padding: 10px; 
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    text-align: center;
+}
+
+tr:last-child td {
+    border-bottom: none; 
+  }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.nutritionTable{
+    padding-bottom: 20px;
+}
+
+.tableFigs{
+
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+
+@media screen and (min-width: 769px){
+    body{
+        background-color: hsl(30, 54%, 90%) ; 
+    }
+    .mainContainer{
+        width: 40%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 100%);
+        overflow: hidden;
+    }
+
+    .topImage{
+        padding: 25px;
+    }
+    .topImage img{
+        border-radius: 10px;
+    }
+
+
+  }
